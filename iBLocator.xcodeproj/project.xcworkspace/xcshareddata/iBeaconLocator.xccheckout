@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5757A06B-43F4-4B93-9CA1-A616D2E13A69</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iBeaconLocator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9F92C789-A84A-4735-8FA5-A24720F5CC9D</key>
+		<string>http://svn.intranet.eurelis.net/svn-default/eurelis/demo/ibeacon/ibeacon-locator/trunk</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iBeaconLocator.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9F92C789-A84A-4735-8FA5-A24720F5CC9D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>9F92C789-A84A-4735-8FA5-A24720F5CC9D</key>
+		<string>http://svn.intranet.eurelis.net/svn-default</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://svn.intranet.eurelis.net/svn-default/eurelis/demo/ibeacon/ibeacon-locator/trunk/iBeaconLocator.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9F92C789-A84A-4735-8FA5-A24720F5CC9D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>eurelis/demo/ibeacon/ibeacon-locator/branches</string>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTagsRelativeLocationKey</key>
+			<string>eurelis/demo/ibeacon/ibeacon-locator/tags</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>eurelis/demo/ibeacon/ibeacon-locator/trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9F92C789-A84A-4735-8FA5-A24720F5CC9D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ibeacon-locator</string>
+		</dict>
+	</array>
+</dict>
+</plist>

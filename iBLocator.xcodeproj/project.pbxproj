@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C404BA5418CF0D1C00FD6044 /* BeaconDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C404BA5318CF0D1C00FD6044 /* BeaconDetailViewController.m */; };
+		C42C64C918BE2E9F00B55024 /* TMPBeacon.m in Sources */ = {isa = PBXBuildFile; fileRef = C42C64C818BE2E9F00B55024 /* TMPBeacon.m */; };
+		C42C64CC18BE368300B55024 /* TMPBeaconValue.m in Sources */ = {isa = PBXBuildFile; fileRef = C42C64CB18BE368300B55024 /* TMPBeaconValue.m */; };
+		C4FC62B718D7110100EFD5DF /* PointOfInterestCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FC62B618D7110100EFD5DF /* PointOfInterestCollectionCell.m */; };
+		C4FC62BD18D740D200EFD5DF /* PointOfInterest.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FC62BC18D740D200EFD5DF /* PointOfInterest.m */; };
+		C4FC62C018D74D7B00EFD5DF /* PictureDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FC62BF18D74D7B00EFD5DF /* PictureDownloaderOperation.m */; };
+		E409C65C18BC92C400FD0636 /* Group.m in Sources */ = {isa = PBXBuildFile; fileRef = E409C65B18BC92C400FD0636 /* Group.m */; };
+		E409C66218BC92C500FD0636 /* Major.m in Sources */ = {isa = PBXBuildFile; fileRef = E409C66118BC92C500FD0636 /* Major.m */; };
+		E409C66518BC92C500FD0636 /* Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = E409C66418BC92C500FD0636 /* Notification.m */; };
+		E42B854218ACC043002276C7 /* GroupBeaconCountCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E42B854118ACC043002276C7 /* GroupBeaconCountCell.m */; };
+		E42B854618ACC592002276C7 /* GroupListManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E42B854518ACC592002276C7 /* GroupListManager.m */; };
+		E42B854918ACC651002276C7 /* GroupManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E42B854818ACC651002276C7 /* GroupManager.m */; };
+		E42B856F18AD0562002276C7 /* ConfigBeaconsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E42B856E18AD0562002276C7 /* ConfigBeaconsTableViewController.m */; };
+		E42B857218AD33DF002276C7 /* EditGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E42B857118AD33DF002276C7 /* EditGroupViewController.m */; };
+		E43BC32018CF4095003D1D66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4776DB918ABE18400CAB835 /* Foundation.framework */; };
+		E43BC32118CF40B8003D1D66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4776DBD18ABE18400CAB835 /* UIKit.framework */; };
+		E43BC32218CF40C4003D1D66 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4776DBF18ABE18400CAB835 /* CoreData.framework */; };
+		E43BC32318CF40D7003D1D66 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45572B718B6543400B7CB86 /* CoreLocation.framework */; };
+		E43BC32418CF40DF003D1D66 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F7436018B7A1A100126283 /* CoreBluetooth.framework */; };
+		E4427C4518D6E69700A118A6 /* Beacon.m in Sources */ = {isa = PBXBuildFile; fileRef = E4427C4418D6E69700A118A6 /* Beacon.m */; };
+		E4427C4B18D6E77A00A118A6 /* PoiFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = E4427C4A18D6E77A00A118A6 /* PoiFetcher.m */; };
+		E4448A4418BB774200C85E61 /* BackgroundNotificationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4448A4318BB774200C85E61 /* BackgroundNotificationTableViewController.m */; };
+		E4448A4718BB9B7C00C85E61 /* NotificationSettingsPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4448A4618BB9B7C00C85E61 /* NotificationSettingsPanelViewController.m */; };
+		E44FFF1E18CE1C650043376D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E44FFF2018CE1C650043376D /* Localizable.strings */; };
+		E44FFF2618CE28CF0043376D /* MajorCreationPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E44FFF2518CE28CF0043376D /* MajorCreationPanelViewController.m */; };
+		E45572B318B6475B00B7CB86 /* ListenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45572B218B6475B00B7CB86 /* ListenTableViewController.m */; };
+		E45572BB18B6604600B7CB86 /* ListenedBeaconCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E45572BA18B6604600B7CB86 /* ListenedBeaconCell.m */; };
+		E4776DBC18ABE18400CAB835 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4776DBB18ABE18400CAB835 /* CoreGraphics.framework */; };
+		E4776DC618ABE18400CAB835 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4776DC418ABE18400CAB835 /* InfoPlist.strings */; };
+		E4776DC818ABE18400CAB835 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4776DC718ABE18400CAB835 /* main.m */; };
+		E4776DCC18ABE18400CAB835 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4776DCB18ABE18400CAB835 /* AppDelegate.m */; };
+		E4776DCF18ABE18400CAB835 /* iBLocator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4776DCD18ABE18400CAB835 /* iBLocator.xcdatamodeld */; };
+		E4776DD118ABE18400CAB835 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4776DD018ABE18400CAB835 /* Images.xcassets */; };
+		E4776DD818ABE18400CAB835 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4776DD718ABE18400CAB835 /* XCTest.framework */; };
+		E4776DD918ABE18400CAB835 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4776DB918ABE18400CAB835 /* Foundation.framework */; };
+		E4776DDA18ABE18400CAB835 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4776DBD18ABE18400CAB835 /* UIKit.framework */; };
+		E4776DDB18ABE18400CAB835 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4776DBF18ABE18400CAB835 /* CoreData.framework */; };
+		E4776DE318ABE18400CAB835 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4776DE118ABE18400CAB835 /* InfoPlist.strings */; };
+		E4776DE518ABE18400CAB835 /* iBeaconToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4776DE418ABE18400CAB835 /* iBeaconToolTests.m */; };
+		E4776DEF18ABE1FB00CAB835 /* Storyboard-iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4776DEE18ABE1FB00CAB835 /* Storyboard-iPhone.storyboard */; };
+		E478C35118DB294B00AEBBCB /* EmptyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E478C35018DB294B00AEBBCB /* EmptyCollectionViewCell.m */; };
+		E4C22E4A18B276FD003C3A19 /* EditBeaconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C22E4918B276FD003C3A19 /* EditBeaconViewController.m */; };
+		E4C3E7E918B35B470051398D /* MajorMinor.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C3E7E818B35B460051398D /* MajorMinor.m */; };
+		E4C3E7EC18B35DF80051398D /* MajorMinorPickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C3E7EB18B35DF80051398D /* MajorMinorPickerManager.m */; };
+		E4CD663718E5CE3100A0944B /* PointOfInterestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CD663618E5CE3100A0944B /* PointOfInterestTableViewCell.m */; };
+		E4D3F1BA18BF77C9001B1628 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D3F1B918BF77C9001B1628 /* RootViewController.m */; };
+		E4F7435318B7533600126283 /* TableGroupListManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F7435218B7533600126283 /* TableGroupListManager.m */; };
+		E4F7435618B7549400126283 /* GroupWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F7435518B7549400126283 /* GroupWrapper.m */; };
+		E4F7435918B754D800126283 /* MajorWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F7435818B754D800126283 /* MajorWrapper.m */; };
+		E4F7435C18B7555E00126283 /* BeaconWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F7435B18B7555E00126283 /* BeaconWrapper.m */; };
+		E4F7435F18B75BA900126283 /* TransmitterChoiceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F7435E18B75BA900126283 /* TransmitterChoiceTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4776DDC18ABE18400CAB835 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4776DAE18ABE18400CAB835 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4776DB518ABE18400CAB835;
+			remoteInfo = iBeaconTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C404BA5218CF0D1C00FD6044 /* BeaconDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconDetailViewController.h; sourceTree = "<group>"; };
+		C404BA5318CF0D1C00FD6044 /* BeaconDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconDetailViewController.m; sourceTree = "<group>"; };
+		C42C64C718BE2E9F00B55024 /* TMPBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMPBeacon.h; sourceTree = "<group>"; };
+		C42C64C818BE2E9F00B55024 /* TMPBeacon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMPBeacon.m; sourceTree = "<group>"; };
+		C42C64CA18BE368300B55024 /* TMPBeaconValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMPBeaconValue.h; sourceTree = "<group>"; };
+		C42C64CB18BE368300B55024 /* TMPBeaconValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMPBeaconValue.m; sourceTree = "<group>"; };
+		C4FC62B518D7110100EFD5DF /* PointOfInterestCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointOfInterestCollectionCell.h; sourceTree = "<group>"; };
+		C4FC62B618D7110100EFD5DF /* PointOfInterestCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointOfInterestCollectionCell.m; sourceTree = "<group>"; };
+		C4FC62BB18D740D200EFD5DF /* PointOfInterest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PointOfInterest.h; path = StoreModel/PointOfInterest.h; sourceTree = "<group>"; };
+		C4FC62BC18D740D200EFD5DF /* PointOfInterest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PointOfInterest.m; path = StoreModel/PointOfInterest.m; sourceTree = "<group>"; };
+		C4FC62BE18D74D7B00EFD5DF /* PictureDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureDownloaderOperation.h; sourceTree = "<group>"; };
+		C4FC62BF18D74D7B00EFD5DF /* PictureDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureDownloaderOperation.m; sourceTree = "<group>"; };
+		E409C65A18BC92C400FD0636 /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Group.h; path = StoreModel/Group.h; sourceTree = "<group>"; };
+		E409C65B18BC92C400FD0636 /* Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Group.m; path = StoreModel/Group.m; sourceTree = "<group>"; };
+		E409C66018BC92C500FD0636 /* Major.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Major.h; path = StoreModel/Major.h; sourceTree = "<group>"; };
+		E409C66118BC92C500FD0636 /* Major.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Major.m; path = StoreModel/Major.m; sourceTree = "<group>"; };
+		E409C66318BC92C500FD0636 /* Notification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Notification.h; path = StoreModel/Notification.h; sourceTree = "<group>"; };
+		E409C66418BC92C500FD0636 /* Notification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Notification.m; path = StoreModel/Notification.m; sourceTree = "<group>"; };
+		E42B854018ACC043002276C7 /* GroupBeaconCountCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupBeaconCountCell.h; sourceTree = "<group>"; };
+		E42B854118ACC043002276C7 /* GroupBeaconCountCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupBeaconCountCell.m; sourceTree = "<group>"; };
+		E42B854418ACC592002276C7 /* GroupListManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroupListManager.h; path = Model/GroupListManager.h; sourceTree = "<group>"; };
+		E42B854518ACC592002276C7 /* GroupListManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GroupListManager.m; path = Model/GroupListManager.m; sourceTree = "<group>"; };
+		E42B854718ACC651002276C7 /* GroupManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroupManager.h; path = Model/GroupManager.h; sourceTree = "<group>"; };
+		E42B854818ACC651002276C7 /* GroupManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GroupManager.m; path = Model/GroupManager.m; sourceTree = "<group>"; };
+		E42B856018ACD9D5002276C7 /* StoreModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StoreModel.h; path = StoreModel/StoreModel.h; sourceTree = "<group>"; };
+		E42B856D18AD0562002276C7 /* ConfigBeaconsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigBeaconsTableViewController.h; sourceTree = "<group>"; };
+		E42B856E18AD0562002276C7 /* ConfigBeaconsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigBeaconsTableViewController.m; sourceTree = "<group>"; };
+		E42B857018AD33DF002276C7 /* EditGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditGroupViewController.h; sourceTree = "<group>"; };
+		E42B857118AD33DF002276C7 /* EditGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditGroupViewController.m; sourceTree = "<group>"; };
+		E4427C4318D6E69700A118A6 /* Beacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Beacon.h; path = StoreModel/Beacon.h; sourceTree = "<group>"; };
+		E4427C4418D6E69700A118A6 /* Beacon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Beacon.m; path = StoreModel/Beacon.m; sourceTree = "<group>"; };
+		E4427C4918D6E77A00A118A6 /* PoiFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoiFetcher.h; sourceTree = "<group>"; };
+		E4427C4A18D6E77A00A118A6 /* PoiFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoiFetcher.m; sourceTree = "<group>"; };
+		E4448A4218BB774200C85E61 /* BackgroundNotificationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundNotificationTableViewController.h; sourceTree = "<group>"; };
+		E4448A4318BB774200C85E61 /* BackgroundNotificationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundNotificationTableViewController.m; sourceTree = "<group>"; };
+		E4448A4518BB9B7B00C85E61 /* NotificationSettingsPanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationSettingsPanelViewController.h; sourceTree = "<group>"; };
+		E4448A4618BB9B7C00C85E61 /* NotificationSettingsPanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationSettingsPanelViewController.m; sourceTree = "<group>"; };
+		E44FFF1F18CE1C650043376D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E44FFF2118CE1CA00043376D /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E44FFF2218CE1CA00043376D /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E44FFF2318CE1CA00043376D /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E44FFF2418CE28CF0043376D /* MajorCreationPanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MajorCreationPanelViewController.h; sourceTree = "<group>"; };
+		E44FFF2518CE28CF0043376D /* MajorCreationPanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MajorCreationPanelViewController.m; sourceTree = "<group>"; };
+		E45572B118B6475B00B7CB86 /* ListenTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListenTableViewController.h; sourceTree = "<group>"; };
+		E45572B218B6475B00B7CB86 /* ListenTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListenTableViewController.m; sourceTree = "<group>"; };
+		E45572B718B6543400B7CB86 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E45572B918B6604600B7CB86 /* ListenedBeaconCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListenedBeaconCell.h; sourceTree = "<group>"; };
+		E45572BA18B6604600B7CB86 /* ListenedBeaconCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListenedBeaconCell.m; sourceTree = "<group>"; };
+		E4776DB618ABE18400CAB835 /* iBLocator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBLocator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4776DB918ABE18400CAB835 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E4776DBB18ABE18400CAB835 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E4776DBD18ABE18400CAB835 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E4776DBF18ABE18400CAB835 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E4776DC318ABE18400CAB835 /* iBLocator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iBLocator-Info.plist"; sourceTree = "<group>"; };
+		E4776DC518ABE18400CAB835 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E4776DC718ABE18400CAB835 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4776DC918ABE18400CAB835 /* iBLocator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iBLocator-Prefix.pch"; sourceTree = "<group>"; };
+		E4776DCA18ABE18400CAB835 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E4776DCB18ABE18400CAB835 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E4776DCE18ABE18400CAB835 /* iBLocator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iBLocator.xcdatamodel; sourceTree = "<group>"; };
+		E4776DD018ABE18400CAB835 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E4776DD618ABE18400CAB835 /* iBLocatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBLocatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4776DD718ABE18400CAB835 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E4776DE018ABE18400CAB835 /* iBeaconLocatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iBeaconLocatorTests-Info.plist"; sourceTree = "<group>"; };
+		E4776DE218ABE18400CAB835 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E4776DE418ABE18400CAB835 /* iBeaconToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iBeaconToolTests.m; sourceTree = "<group>"; };
+		E4776DEE18ABE1FB00CAB835 /* Storyboard-iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Storyboard-iPhone.storyboard"; sourceTree = "<group>"; };
+		E478C34F18DB294B00AEBBCB /* EmptyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyCollectionViewCell.h; sourceTree = "<group>"; };
+		E478C35018DB294B00AEBBCB /* EmptyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyCollectionViewCell.m; sourceTree = "<group>"; };
+		E4C22E4818B276FD003C3A19 /* EditBeaconViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditBeaconViewController.h; sourceTree = "<group>"; };
+		E4C22E4918B276FD003C3A19 /* EditBeaconViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditBeaconViewController.m; sourceTree = "<group>"; };
+		E4C3E7E718B35B460051398D /* MajorMinor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MajorMinor.h; sourceTree = "<group>"; };
+		E4C3E7E818B35B460051398D /* MajorMinor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MajorMinor.m; sourceTree = "<group>"; };
+		E4C3E7EA18B35DF80051398D /* MajorMinorPickerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MajorMinorPickerManager.h; sourceTree = "<group>"; };
+		E4C3E7EB18B35DF80051398D /* MajorMinorPickerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MajorMinorPickerManager.m; sourceTree = "<group>"; };
+		E4CD663518E5CE3100A0944B /* PointOfInterestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointOfInterestTableViewCell.h; sourceTree = "<group>"; };
+		E4CD663618E5CE3100A0944B /* PointOfInterestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointOfInterestTableViewCell.m; sourceTree = "<group>"; };
+		E4D3F1B818BF77C9001B1628 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		E4D3F1B918BF77C9001B1628 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		E4F7435118B7533600126283 /* TableGroupListManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableGroupListManager.h; sourceTree = "<group>"; };
+		E4F7435218B7533600126283 /* TableGroupListManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableGroupListManager.m; sourceTree = "<group>"; };
+		E4F7435418B7549400126283 /* GroupWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupWrapper.h; sourceTree = "<group>"; };
+		E4F7435518B7549400126283 /* GroupWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupWrapper.m; sourceTree = "<group>"; };
+		E4F7435718B754D800126283 /* MajorWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MajorWrapper.h; sourceTree = "<group>"; };
+		E4F7435818B754D800126283 /* MajorWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MajorWrapper.m; sourceTree = "<group>"; };
+		E4F7435A18B7555E00126283 /* BeaconWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconWrapper.h; sourceTree = "<group>"; };
+		E4F7435B18B7555E00126283 /* BeaconWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconWrapper.m; sourceTree = "<group>"; };
+		E4F7435D18B75BA900126283 /* TransmitterChoiceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransmitterChoiceTableViewController.h; sourceTree = "<group>"; };
+		E4F7435E18B75BA900126283 /* TransmitterChoiceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransmitterChoiceTableViewController.m; sourceTree = "<group>"; };
+		E4F7436018B7A1A100126283 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4776DB318ABE18400CAB835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E43BC32418CF40DF003D1D66 /* CoreBluetooth.framework in Frameworks */,
+				E43BC32318CF40D7003D1D66 /* CoreLocation.framework in Frameworks */,
+				E43BC32218CF40C4003D1D66 /* CoreData.framework in Frameworks */,
+				E43BC32118CF40B8003D1D66 /* UIKit.framework in Frameworks */,
+				E43BC32018CF4095003D1D66 /* Foundation.framework in Frameworks */,
+				E4776DBC18ABE18400CAB835 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4776DD318ABE18400CAB835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4776DD818ABE18400CAB835 /* XCTest.framework in Frameworks */,
+				E4776DDB18ABE18400CAB835 /* CoreData.framework in Frameworks */,
+				E4776DDA18ABE18400CAB835 /* UIKit.framework in Frameworks */,
+				E4776DD918ABE18400CAB835 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E42B854318ACC554002276C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E42B854418ACC592002276C7 /* GroupListManager.h */,
+				E42B854518ACC592002276C7 /* GroupListManager.m */,
+				E42B854718ACC651002276C7 /* GroupManager.h */,
+				E42B854818ACC651002276C7 /* GroupManager.m */,
+				E4C3E7E718B35B460051398D /* MajorMinor.h */,
+				E4C3E7E818B35B460051398D /* MajorMinor.m */,
+				E4C3E7EA18B35DF80051398D /* MajorMinorPickerManager.h */,
+				E4C3E7EB18B35DF80051398D /* MajorMinorPickerManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E42B855018ACCDCB002276C7 /* StoreModel */ = {
+			isa = PBXGroup;
+			children = (
+				E42B856018ACD9D5002276C7 /* StoreModel.h */,
+				E409C65A18BC92C400FD0636 /* Group.h */,
+				E409C65B18BC92C400FD0636 /* Group.m */,
+				E409C66018BC92C500FD0636 /* Major.h */,
+				E409C66118BC92C500FD0636 /* Major.m */,
+				E409C66318BC92C500FD0636 /* Notification.h */,
+				E409C66418BC92C500FD0636 /* Notification.m */,
+				E4427C4318D6E69700A118A6 /* Beacon.h */,
+				E4427C4418D6E69700A118A6 /* Beacon.m */,
+				C4FC62BB18D740D200EFD5DF /* PointOfInterest.h */,
+				C4FC62BC18D740D200EFD5DF /* PointOfInterest.m */,
+			);
+			name = StoreModel;
+			sourceTree = "<group>";
+		};
+		E42E7F2518DC3410004C7E4C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E42B856D18AD0562002276C7 /* ConfigBeaconsTableViewController.h */,
+				E42B856E18AD0562002276C7 /* ConfigBeaconsTableViewController.m */,
+				E42B857018AD33DF002276C7 /* EditGroupViewController.h */,
+				E42B857118AD33DF002276C7 /* EditGroupViewController.m */,
+				E4C22E4818B276FD003C3A19 /* EditBeaconViewController.h */,
+				E4C22E4918B276FD003C3A19 /* EditBeaconViewController.m */,
+				E45572B118B6475B00B7CB86 /* ListenTableViewController.h */,
+				E45572B218B6475B00B7CB86 /* ListenTableViewController.m */,
+				E4F7435D18B75BA900126283 /* TransmitterChoiceTableViewController.h */,
+				E4F7435E18B75BA900126283 /* TransmitterChoiceTableViewController.m */,
+				E4448A4218BB774200C85E61 /* BackgroundNotificationTableViewController.h */,
+				E4448A4318BB774200C85E61 /* BackgroundNotificationTableViewController.m */,
+				E4448A4518BB9B7B00C85E61 /* NotificationSettingsPanelViewController.h */,
+				E4448A4618BB9B7C00C85E61 /* NotificationSettingsPanelViewController.m */,
+				E4D3F1B818BF77C9001B1628 /* RootViewController.h */,
+				E4D3F1B918BF77C9001B1628 /* RootViewController.m */,
+				E44FFF2418CE28CF0043376D /* MajorCreationPanelViewController.h */,
+				E44FFF2518CE28CF0043376D /* MajorCreationPanelViewController.m */,
+				C404BA5218CF0D1C00FD6044 /* BeaconDetailViewController.h */,
+				C404BA5318CF0D1C00FD6044 /* BeaconDetailViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E42E7F2618DC3441004C7E4C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E45572B918B6604600B7CB86 /* ListenedBeaconCell.h */,
+				E45572BA18B6604600B7CB86 /* ListenedBeaconCell.m */,
+				E42B854018ACC043002276C7 /* GroupBeaconCountCell.h */,
+				E42B854118ACC043002276C7 /* GroupBeaconCountCell.m */,
+				C4FC62B518D7110100EFD5DF /* PointOfInterestCollectionCell.h */,
+				C4FC62B618D7110100EFD5DF /* PointOfInterestCollectionCell.m */,
+				E478C34F18DB294B00AEBBCB /* EmptyCollectionViewCell.h */,
+				E478C35018DB294B00AEBBCB /* EmptyCollectionViewCell.m */,
+				E4CD663518E5CE3100A0944B /* PointOfInterestTableViewCell.h */,
+				E4CD663618E5CE3100A0944B /* PointOfInterestTableViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		E42E7F2718DC3462004C7E4C /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				C4FC62BE18D74D7B00EFD5DF /* PictureDownloaderOperation.h */,
+				C4FC62BF18D74D7B00EFD5DF /* PictureDownloaderOperation.m */,
+				E4427C4918D6E77A00A118A6 /* PoiFetcher.h */,
+				E4427C4A18D6E77A00A118A6 /* PoiFetcher.m */,
+			);
+			name = Operations;
+			sourceTree = "<group>";
+		};
+		E4776DAD18ABE18400CAB835 = {
+			isa = PBXGroup;
+			children = (
+				E4776DC118ABE18400CAB835 /* iBeaconTool */,
+				E4776DDE18ABE18400CAB835 /* iBeaconToolTests */,
+				E4776DB818ABE18400CAB835 /* Frameworks */,
+				E4776DB718ABE18400CAB835 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4776DB718ABE18400CAB835 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4776DB618ABE18400CAB835 /* iBLocator.app */,
+				E4776DD618ABE18400CAB835 /* iBLocatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4776DB818ABE18400CAB835 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4F7436018B7A1A100126283 /* CoreBluetooth.framework */,
+				E45572B718B6543400B7CB86 /* CoreLocation.framework */,
+				E4776DB918ABE18400CAB835 /* Foundation.framework */,
+				E4776DBB18ABE18400CAB835 /* CoreGraphics.framework */,
+				E4776DBD18ABE18400CAB835 /* UIKit.framework */,
+				E4776DBF18ABE18400CAB835 /* CoreData.framework */,
+				E4776DD718ABE18400CAB835 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4776DC118ABE18400CAB835 /* iBeaconTool */ = {
+			isa = PBXGroup;
+			children = (
+				E42E7F2718DC3462004C7E4C /* Operations */,
+				E42E7F2618DC3441004C7E4C /* Cells */,
+				E42E7F2518DC3410004C7E4C /* Controllers */,
+				E4F7435018B752EC00126283 /* TableGroup */,
+				E42B855018ACCDCB002276C7 /* StoreModel */,
+				E42B854318ACC554002276C7 /* Model */,
+				E4776DCA18ABE18400CAB835 /* AppDelegate.h */,
+				E4776DCB18ABE18400CAB835 /* AppDelegate.m */,
+				E4776DD018ABE18400CAB835 /* Images.xcassets */,
+				E4776DCD18ABE18400CAB835 /* iBLocator.xcdatamodeld */,
+				E4776DC218ABE18400CAB835 /* Supporting Files */,
+				E4776DEE18ABE1FB00CAB835 /* Storyboard-iPhone.storyboard */,
+				C42C64C718BE2E9F00B55024 /* TMPBeacon.h */,
+				C42C64C818BE2E9F00B55024 /* TMPBeacon.m */,
+				C42C64CA18BE368300B55024 /* TMPBeaconValue.h */,
+				C42C64CB18BE368300B55024 /* TMPBeaconValue.m */,
+			);
+			path = iBeaconTool;
+			sourceTree = "<group>";
+		};
+		E4776DC218ABE18400CAB835 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4776DC318ABE18400CAB835 /* iBLocator-Info.plist */,
+				E4776DC418ABE18400CAB835 /* InfoPlist.strings */,
+				E4776DC718ABE18400CAB835 /* main.m */,
+				E4776DC918ABE18400CAB835 /* iBLocator-Prefix.pch */,
+				E44FFF2018CE1C650043376D /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4776DDE18ABE18400CAB835 /* iBeaconToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4776DE418ABE18400CAB835 /* iBeaconToolTests.m */,
+				E4776DDF18ABE18400CAB835 /* Supporting Files */,
+			);
+			path = iBeaconToolTests;
+			sourceTree = "<group>";
+		};
+		E4776DDF18ABE18400CAB835 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4776DE018ABE18400CAB835 /* iBeaconLocatorTests-Info.plist */,
+				E4776DE118ABE18400CAB835 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4F7435018B752EC00126283 /* TableGroup */ = {
+			isa = PBXGroup;
+			children = (
+				E4F7435118B7533600126283 /* TableGroupListManager.h */,
+				E4F7435218B7533600126283 /* TableGroupListManager.m */,
+				E4F7435418B7549400126283 /* GroupWrapper.h */,
+				E4F7435518B7549400126283 /* GroupWrapper.m */,
+				E4F7435718B754D800126283 /* MajorWrapper.h */,
+				E4F7435818B754D800126283 /* MajorWrapper.m */,
+				E4F7435A18B7555E00126283 /* BeaconWrapper.h */,
+				E4F7435B18B7555E00126283 /* BeaconWrapper.m */,
+			);
+			path = TableGroup;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4776DB518ABE18400CAB835 /* iBLocator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4776DE818ABE18400CAB835 /* Build configuration list for PBXNativeTarget "iBLocator" */;
+			buildPhases = (
+				E4776DB218ABE18400CAB835 /* Sources */,
+				E4776DB318ABE18400CAB835 /* Frameworks */,
+				E4776DB418ABE18400CAB835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iBLocator;
+			productName = iBeaconTool;
+			productReference = E4776DB618ABE18400CAB835 /* iBLocator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4776DD518ABE18400CAB835 /* iBLocatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4776DEB18ABE18400CAB835 /* Build configuration list for PBXNativeTarget "iBLocatorTests" */;
+			buildPhases = (
+				E4776DD218ABE18400CAB835 /* Sources */,
+				E4776DD318ABE18400CAB835 /* Frameworks */,
+				E4776DD418ABE18400CAB835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4776DDD18ABE18400CAB835 /* PBXTargetDependency */,
+			);
+			name = iBLocatorTests;
+			productName = iBeaconToolTests;
+			productReference = E4776DD618ABE18400CAB835 /* iBLocatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4776DAE18ABE18400CAB835 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Eurelis;
+				TargetAttributes = {
+					E4776DB518ABE18400CAB835 = {
+						DevelopmentTeam = 6VQRUWB4NB;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					E4776DD518ABE18400CAB835 = {
+						TestTargetID = E4776DB518ABE18400CAB835;
+					};
+				};
+			};
+			buildConfigurationList = E4776DB118ABE18400CAB835 /* Build configuration list for PBXProject "iBLocator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+			);
+			mainGroup = E4776DAD18ABE18400CAB835;
+			productRefGroup = E4776DB718ABE18400CAB835 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4776DB518ABE18400CAB835 /* iBLocator */,
+				E4776DD518ABE18400CAB835 /* iBLocatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4776DB418ABE18400CAB835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4776DEF18ABE1FB00CAB835 /* Storyboard-iPhone.storyboard in Resources */,
+				E44FFF1E18CE1C650043376D /* Localizable.strings in Resources */,
+				E4776DC618ABE18400CAB835 /* InfoPlist.strings in Resources */,
+				E4776DD118ABE18400CAB835 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4776DD418ABE18400CAB835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4776DE318ABE18400CAB835 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4776DB218ABE18400CAB835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E409C66518BC92C500FD0636 /* Notification.m in Sources */,
+				E4F7435618B7549400126283 /* GroupWrapper.m in Sources */,
+				E478C35118DB294B00AEBBCB /* EmptyCollectionViewCell.m in Sources */,
+				E44FFF2618CE28CF0043376D /* MajorCreationPanelViewController.m in Sources */,
+				E4C3E7E918B35B470051398D /* MajorMinor.m in Sources */,
+				E409C66218BC92C500FD0636 /* Major.m in Sources */,
+				E4CD663718E5CE3100A0944B /* PointOfInterestTableViewCell.m in Sources */,
+				E4D3F1BA18BF77C9001B1628 /* RootViewController.m in Sources */,
+				E4776DCF18ABE18400CAB835 /* iBLocator.xcdatamodeld in Sources */,
+				E4776DCC18ABE18400CAB835 /* AppDelegate.m in Sources */,
+				E4F7435F18B75BA900126283 /* TransmitterChoiceTableViewController.m in Sources */,
+				E4776DC818ABE18400CAB835 /* main.m in Sources */,
+				E4427C4B18D6E77A00A118A6 /* PoiFetcher.m in Sources */,
+				E4448A4418BB774200C85E61 /* BackgroundNotificationTableViewController.m in Sources */,
+				E4F7435C18B7555E00126283 /* BeaconWrapper.m in Sources */,
+				C42C64CC18BE368300B55024 /* TMPBeaconValue.m in Sources */,
+				E42B854918ACC651002276C7 /* GroupManager.m in Sources */,
+				E4C22E4A18B276FD003C3A19 /* EditBeaconViewController.m in Sources */,
+				E42B854618ACC592002276C7 /* GroupListManager.m in Sources */,
+				E4C3E7EC18B35DF80051398D /* MajorMinorPickerManager.m in Sources */,
+				E409C65C18BC92C400FD0636 /* Group.m in Sources */,
+				C4FC62B718D7110100EFD5DF /* PointOfInterestCollectionCell.m in Sources */,
+				E45572B318B6475B00B7CB86 /* ListenTableViewController.m in Sources */,
+				E42B854218ACC043002276C7 /* GroupBeaconCountCell.m in Sources */,
+				E4427C4518D6E69700A118A6 /* Beacon.m in Sources */,
+				E4F7435918B754D800126283 /* MajorWrapper.m in Sources */,
+				E4448A4718BB9B7C00C85E61 /* NotificationSettingsPanelViewController.m in Sources */,
+				C4FC62BD18D740D200EFD5DF /* PointOfInterest.m in Sources */,
+				C4FC62C018D74D7B00EFD5DF /* PictureDownloaderOperation.m in Sources */,
+				C42C64C918BE2E9F00B55024 /* TMPBeacon.m in Sources */,
+				E4F7435318B7533600126283 /* TableGroupListManager.m in Sources */,
+				E45572BB18B6604600B7CB86 /* ListenedBeaconCell.m in Sources */,
+				E42B857218AD33DF002276C7 /* EditGroupViewController.m in Sources */,
+				C404BA5418CF0D1C00FD6044 /* BeaconDetailViewController.m in Sources */,
+				E42B856F18AD0562002276C7 /* ConfigBeaconsTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4776DD218ABE18400CAB835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4776DE518ABE18400CAB835 /* iBeaconToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4776DDD18ABE18400CAB835 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4776DB518ABE18400CAB835 /* iBLocator */;
+			targetProxy = E4776DDC18ABE18400CAB835 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E44FFF2018CE1C650043376D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E44FFF1F18CE1C650043376D /* en */,
+				E44FFF2218CE1CA00043376D /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		E4776DC418ABE18400CAB835 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4776DC518ABE18400CAB835 /* en */,
+				E44FFF2118CE1CA00043376D /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E4776DE118ABE18400CAB835 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4776DE218ABE18400CAB835 /* en */,
+				E44FFF2318CE1CA00043376D /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4776DE618ABE18400CAB835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E4776DE718ABE18400CAB835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4776DE918ABE18400CAB835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iBeaconTool/iBLocator-Prefix.pch";
+				INFOPLIST_FILE = "iBeaconTool/iBLocator-Info.plist";
+				PRODUCT_NAME = iBLocator;
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4776DEA18ABE18400CAB835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iBeaconTool/iBLocator-Prefix.pch";
+				INFOPLIST_FILE = "iBeaconTool/iBLocator-Info.plist";
+				PRODUCT_NAME = iBLocator;
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E4776DEC18ABE18400CAB835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iBeaconLocator.app/iBeaconLocator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iBeaconTool/iBeaconTool-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iBeaconToolTests/iBeaconLocatorTests-Info.plist";
+				PRODUCT_NAME = iBLocatorTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E4776DED18ABE18400CAB835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iBeaconLocator.app/iBeaconLocator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iBeaconTool/iBeaconTool-Prefix.pch";
+				INFOPLIST_FILE = "iBeaconToolTests/iBeaconLocatorTests-Info.plist";
+				PRODUCT_NAME = iBLocatorTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4776DB118ABE18400CAB835 /* Build configuration list for PBXProject "iBLocator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4776DE618ABE18400CAB835 /* Debug */,
+				E4776DE718ABE18400CAB835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4776DE818ABE18400CAB835 /* Build configuration list for PBXNativeTarget "iBLocator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4776DE918ABE18400CAB835 /* Debug */,
+				E4776DEA18ABE18400CAB835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4776DEB18ABE18400CAB835 /* Build configuration list for PBXNativeTarget "iBLocatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4776DEC18ABE18400CAB835 /* Debug */,
+				E4776DED18ABE18400CAB835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E4776DCD18ABE18400CAB835 /* iBLocator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E4776DCE18ABE18400CAB835 /* iBLocator.xcdatamodel */,
+			);
+			currentVersion = E4776DCE18ABE18400CAB835 /* iBLocator.xcdatamodel */;
+			path = iBLocator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E4776DAE18ABE18400CAB835 /* Project object */;
+}

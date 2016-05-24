@@ -1,0 +1,38 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_7_0
+#warning "This project uses features only available in iOS SDK 7.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+#endif
+
+
+#define TRACE //NSLog(@"%@ %@", NSStringFromClass([self class]), NSStringFromSelector(_cmd));
+
+#define PROXIMITY_NOT_RECEIVED -1
+#define PROXIMITY_UNKNOWN 0
+#define PROXIMITY_FAR 1
+#define PROXIMITY_NEAR 2
+#define PROXIMITY_IMMEDIATE 3
+
+#define BEACON_BUFFER 0
+#define BEACON_BUFFER_SIZE 2
+
+typedef enum {
+    UNKNOWN = 0,
+    FAR = 1,
+    NEAR = 2,
+    IMMEDIATE = 3
+} Proximity;
+
+#import "AppDelegate.h"

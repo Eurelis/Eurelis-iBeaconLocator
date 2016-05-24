@@ -1,0 +1,71 @@
+/* 
+  Localizable.strings
+  iBLocator
+
+  Created by Eurelis on 10/03/2014.
+  Copyright (c) 2014 Eurelis. All rights reserved.
+*/
+
+"BACK" = "Back";
+"NOTIFICATIONS" = "Notifications";
+
+"ACTIVE_GROUP_DESC" = "Active group";
+"INACTIVE_GROUP_DESC" = "Disabled group";
+
+"ENABLE_NOTIFICATIONS" = "Enable notifications:";
+"ON_ENTRY" = "On entry:";
+"ON_EXIT" = "On exit:";
+"ON_DISPLAY" = "When device's display is on:";
+
+"CREATE_MAJOR_LABEL_FORMAT" = "Create major: %@";
+"ERROR_MAJOR_ALREADY_EXISTS" = "This major already exists";
+
+"LISTEN" = "Listen";
+"CANCEL" = "Cancel";
+
+"CREATE_NEW_BEACON" = "Create new beacon";
+"CREATE_NEW_GROUP" = "Create new group";
+
+"RSSI_FORMAT_LABEL" = "Rssi: %ddB";
+"ACCURACY_FORMAT_LABEL" = "Accuracy: %0.3f m";
+"PROXIMITY_FORMAT_LABEL" = "Proximity: %@";
+
+"PROXIMITY_IMMEDIATE" = "immediate";
+"PROXIMITY_NEAR" = "near";
+"PROXIMITY_FAR" = "far";
+"PROXIMITY_UNKNOWN" = "unknown";
+
+"EMIT" = "Emit";
+"SETTINGS" = "Settings";
+"CONTACT" = "Contact";
+
+"SELECT_TRANSMITTER_BEACON" = "Select a beacon on the list";
+"INACTIVE_EMITTER" = "Emitter is off";
+"ACTIVE_EMITTER" = "Emitter is on";
+
+"NAME_ERROR" = "You must give a name.";
+"UNICITY_ERROR" = "This beacon already exists, verify major and minor values.";
+"UUID_UNICITY_ERROR" = "A group with this UUID already exists.";
+"EMPTY_NAME_ERROR" = "You must give a name.";
+
+"INSIDE_NOTIFICATION_FORMAT" = "You are now detecting: %@";
+"OUTSIDE_NOTIFICATION_FORMAT" = "You aren't detecting: %@ anymore";
+
+"NOTIFICATION_BEACON_NAME_FORMAT" = "the beacon %@";
+"NOTIFICATION_MAJOR_NAME_FORMAT" = "%@ - %@ ";
+"NOTIFICATION_GROUP_NAME_FORMAT" = "%@";
+
+"TAP_DISPLAY_MORE_INFOS" = "Tap here to display more data.";
+"NO_KNOWN_POI" = "No known Point of Interest for this beacon.";
+
+"LISTEN_BEACONS" = "Beacons";
+"LISTEN_POIS" = "POIs";
+
+
+"UUID_IN_PASTEBOARD" = "Your pasteboard contains an UUID, would you like to use it?";
+"UUID_DETECTED" = "UUID detected";
+"YES" = "Yes";
+"NO" = "No";
+
+
+

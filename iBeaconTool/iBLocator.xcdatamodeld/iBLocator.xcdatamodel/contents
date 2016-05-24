@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5063" systemVersion="13C64" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Beacon" representedClassName="Beacon" syncable="YES">
+        <attribute name="accuracy" attributeType="Double" defaultValueString="-1" indexed="YES" syncable="YES"/>
+        <attribute name="minor" attributeType="String" minValueString="4" maxValueString="4" defaultValueString="0000" indexed="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="proximity" attributeType="Integer 16" defaultValueString="-1" syncable="YES"/>
+        <attribute name="rssi" optional="YES" transient="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="txPower" attributeType="Integer 16" minValueString="-255" maxValueString="-1" defaultValueString="-57" syncable="YES"/>
+        <relationship name="major" maxCount="1" deletionRule="Nullify" destinationEntity="Major" inverseName="beacons" inverseEntity="Major" syncable="YES"/>
+        <relationship name="notification" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Notification" inverseName="beacon" inverseEntity="Notification" syncable="YES"/>
+        <relationship name="pois" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="POI" inverseName="beacon" inverseEntity="POI" syncable="YES"/>
+    </entity>
+    <entity name="Group" representedClassName="Group" syncable="YES">
+        <attribute name="active" attributeType="Boolean" defaultValueString="YES" indexed="YES" syncable="YES"/>
+        <attribute name="name" attributeType="String" minValueString="1" syncable="YES"/>
+        <attribute name="uuid" attributeType="String" indexed="YES" syncable="YES"/>
+        <relationship name="majors" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Major" inverseName="group" inverseEntity="Major" syncable="YES"/>
+        <relationship name="notification" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Notification" inverseName="group" inverseEntity="Notification" syncable="YES"/>
+    </entity>
+    <entity name="Major" representedClassName="Major" syncable="YES">
+        <attribute name="major" attributeType="String" minValueString="4" maxValueString="4" defaultValueString="0000" indexed="YES" syncable="YES"/>
+        <relationship name="beacons" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Beacon" inverseName="major" inverseEntity="Beacon" syncable="YES"/>
+        <relationship name="group" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Group" inverseName="majors" inverseEntity="Group" syncable="YES"/>
+        <relationship name="notification" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Notification" inverseName="major" inverseEntity="Notification" syncable="YES"/>
+    </entity>
+    <entity name="Notification" representedClassName="Notification" syncable="YES">
+        <attribute name="enabled" attributeType="Boolean" defaultValueString="NO" indexed="YES" syncable="YES"/>
+        <attribute name="onDisplay" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="onEntry" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="onExit" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <relationship name="beacon" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Beacon" inverseName="notification" inverseEntity="Beacon" syncable="YES"/>
+        <relationship name="group" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Group" inverseName="notification" inverseEntity="Group" syncable="YES"/>
+        <relationship name="major" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Major" inverseName="notification" inverseEntity="Major" syncable="YES"/>
+    </entity>
+    <entity name="POI" representedClassName="PointOfInterest" syncable="YES">
+        <attribute name="changed" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="current_image_changed" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image_changed" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="imageURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="link" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nid" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="beacon" maxCount="1" deletionRule="Nullify" destinationEntity="Beacon" inverseName="pois" inverseEntity="Beacon" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Beacon" positionX="0" positionY="0" width="128" height="180"/>
+        <element name="Group" positionX="0" positionY="0" width="128" height="120"/>
+        <element name="Major" positionX="0" positionY="0" width="128" height="105"/>
+        <element name="Notification" positionX="0" positionY="0" width="128" height="150"/>
+        <element name="POI" positionX="0" positionY="0" width="128" height="193"/>
+    </elements>
+</model>

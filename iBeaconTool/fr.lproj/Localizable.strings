@@ -1,0 +1,69 @@
+/* 
+  Localizable.strings
+  iBLocator
+
+  Created by Eurelis on 10/03/2014.
+  Copyright (c) 2014 Eurelis. All rights reserved.
+*/
+
+"BACK" = "Retour";
+"NOTIFICATIONS" = "Notifications";
+
+"ACTIVE_GROUP_DESC" = "Group actif";
+"INACTIVE_GROUP_DESC" = "Group désactivé";
+
+"ENABLE_NOTIFICATIONS" = "Activer les notifications :";
+"ON_ENTRY" = "À l'entrée :";
+"ON_EXIT" = "À la sortie :";
+"ON_DISPLAY" = "À l'allumage de l'écran :";
+
+"CREATE_MAJOR_LABEL_FORMAT" = "Nouvelle major : %@";
+"ERROR_MAJOR_ALREADY_EXISTS" = "Cette major existe déjà";
+
+"LISTEN" = "Localiser";
+"CANCEL" = "Annul.";
+
+"CREATE_NEW_BEACON" = "Créer une balise";
+"CREATE_NEW_GROUP" = "Créer un groupe";
+
+"RSSI_FORMAT_LABEL" = "Rssi : %ddB";
+"ACCURACY_FORMAT_LABEL" = "Approximation : %0.3f m";
+"PROXIMITY_FORMAT_LABEL" = "Proximité : %@";
+
+"PROXIMITY_IMMEDIATE" = "immediate";
+"PROXIMITY_NEAR" = "proche";
+"PROXIMITY_FAR" = "lointaine";
+"PROXIMITY_UNKNOWN" = "indéterminée";
+
+"EMIT" = "Émettre";
+"SETTINGS" = "Paramètres";
+"CONTACT" = "Contact";
+
+"SELECT_TRANSMITTER_BEACON" = "Choisissez une balise dans la liste";
+"INACTIVE_EMITTER" = "L'émetteur est inactif";
+"ACTIVE_EMITTER" = "L'émetteur est activité";
+
+"NAME_ERROR" = "Vous devez saisir un nom.";
+"UNICITY_ERROR" = "Cette balise existe déjà, veuillez vérifier major et minor.";
+"UUID_UNICITY_ERROR" = "Un groupe avec cet UUID existe déjà.";
+"EMPTY_NAME_ERROR" = "Vous devez saisir un nom.";
+
+"INSIDE_NOTIFICATION_FORMAT" = "Vous détectez : %@";
+"OUTSIDE_NOTIFICATION_FORMAT" = "Vous ne détectez plus : %@";
+
+"NOTIFICATION_BEACON_NAME_FORMAT" = "la balise %@";
+"NOTIFICATION_MAJOR_NAME_FORMAT" = "%@ - %@ ";
+"NOTIFICATION_GROUP_NAME_FORMAT" = "%@";
+
+"TAP_DISPLAY_MORE_INFOS" = "Tappez ici pour plus d'informations.";
+"NO_KNOWN_POI" = "Pas de point d'intérêt connu pour cette balise.";
+
+
+"LISTEN_BEACONS" = "Balises";
+"LISTEN_POIS" = "Point d'intérêt";
+
+"UUID_IN_PASTEBOARD" = "Votre presse papier contient un UUID, voulez-vous l'utiliser ?";
+"UUID_DETECTED" = "UUID détecté";
+"YES" = "Oui";
+"NO" = "Non";
+
